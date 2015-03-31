@@ -14,7 +14,40 @@
         </value>
         <next>
           <block type="oled_drawtext" id="68">
-            <field name="TEXT">yaaaasss</field>
+            <field name="TEXT">nash grier </field>
+            <next>
+              <block type="oled_setcursor" id="103" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="104">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="105">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_drawtext" id="114">
+                    <field name="TEXT">cameron dallas</field>
+                    <next>
+                      <block type="oled_setcursor" id="123" inline="true">
+                        <value name="STARTX">
+                          <block type="math_number" id="124">
+                            <field name="NUM">10</field>
+                          </block>
+                        </value>
+                        <value name="STARTY">
+                          <block type="math_number" id="125">
+                            <field name="NUM">10</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
           </block>
         </next>
       </block>
