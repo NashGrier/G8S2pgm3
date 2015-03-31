@@ -22,7 +22,7 @@
             </value>
             <next>
               <block type="oled_drawtext" id="68">
-                <field name="TEXT">swag</field>
+                <field name="TEXT">im</field>
                 <next>
                   <block type="oled_setcursor" id="103" inline="true">
                     <value name="STARTX">
@@ -52,7 +52,7 @@
                             </value>
                             <next>
                               <block type="oled_drawtext" id="114">
-                                <field name="TEXT">money</field>
+                                <field name="TEXT">fabulous</field>
                                 <next>
                                   <block type="oled_setcursor" id="123" inline="true">
                                     <value name="STARTX">
